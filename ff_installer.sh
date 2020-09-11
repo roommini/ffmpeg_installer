@@ -12,7 +12,7 @@ yum -y install freetype-devel
 
 # Install the dependencies
 yum-config-manager --add-repo http://www.nasm.us/nasm.repo
-yum -y install autoconf automake bzip2 cmake freetype-devel gcc gcc-c++ git libtool make mercurial nasm pkgconfig zlib-devel
+yum -y install autoconf automake bzip2 cmake gcc gcc-c++ git libtool make mercurial nasm pkgconfig zlib-devel
 
 # Make a directory for FFmpeg sources
 mkdir ~/ffmpeg_sources
