@@ -21,11 +21,13 @@ cd ~/ffmpeg_installer
 sudo ./ff_uninstaller.sh
 ````
 
+Thank forked Jnaqsh 
+
 ## License
 
 A Linux Shell Script for compiling and installing FFmpeg in CentOS.
 
-Copyright (C) 2017 Hamed Ramezanian Nik
+Copyright (C) 2017 Hamed Ramezanian Nik 
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
