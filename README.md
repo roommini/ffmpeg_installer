@@ -8,7 +8,7 @@ A Linux Shell Script for compiling, installing and uninstalling FFmpeg in CentOS
 ````sh
 cd ~
 sudo yum -y install git
-git clone https://github.com/jnaqsh/ffmpeg_installer/
+git clone https://github.com/roommini/ffmpeg_installer/
 cd ffmpeg_installer
 chmod +x ./*.sh
 sudo ./ff_installer.sh
