@@ -40,7 +40,7 @@ source ~/.bash_profile
 
 # Install libfdk_aac
 cd ~/ffmpeg_sources
-git clone --depth 1 git://git.code.sf.net/p/opencore-amr/fdk-aac
+git clone --depth 1 https://github.com/mstorsjo/fdk-aac.git
 cd fdk-aac
 autoreconf -fiv
 ./configure --prefix="$HOME/ffmpeg_build" --disable-shared
