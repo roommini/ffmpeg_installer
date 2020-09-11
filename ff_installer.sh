@@ -124,7 +124,7 @@ PATH="$HOME/bin:$PATH" make
 make install
 make distclean
 source ~/.bash_profile
-#yum -y install libvpx
+yum -y install libvpx
 
 # Install FFmpeg
 cd ~/ffmpeg_sources
