@@ -37,16 +37,6 @@ make install
 make distclean
 source ~/.bash_profile
 
-# Install x265
-cd ~/ffmpeg_sources
-hg clone https://bitbucket.org/multicoreware/x265
-cd ~/ffmpeg_sources/x265/build/linux
-cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="$HOME/ffmpeg_build" -DENABLE_SHARED:bool=off ../../source
-make
-make install
-make distclean
-source ~/.bash_profile
-
 # Install libfdk_aac
 cd ~/ffmpeg_sources
 git clone --depth 1 git://git.code.sf.net/p/opencore-amr/fdk-aac
@@ -147,7 +137,6 @@ PATH="$HOME/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./conf
   --enable-libopus \
   --enable-libvpx \
   --enable-libx264 \
-  --enable-libx265 \
   --enable-nonfree
 make
 make install
