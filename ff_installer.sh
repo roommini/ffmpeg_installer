@@ -8,6 +8,7 @@
 # Remove any existing packages
 yum -y erase ffmpeg x264 x264-devel
 yum -y install yum-utils
+yum -y install freetype-devel
 
 # Install the dependencies
 yum-config-manager --add-repo http://www.nasm.us/nasm.repo
