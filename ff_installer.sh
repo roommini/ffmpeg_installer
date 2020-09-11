@@ -7,6 +7,13 @@
 
 # Remove any existing packages
 yum -y erase ffmpeg x264 x264-devel
+
+#Setup EPEL Repository
+yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+yum -y install https://rpms.remirepo.net/enterprise/remi-release-7.rpm
+yum update -y
+yum groupinstall "Development Tools" -y
+
 yum -y install yum-utils
 yum -y install freetype-devel
 
