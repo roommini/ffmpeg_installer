@@ -29,7 +29,7 @@ source ~/.bash_profile
 
 # Install x264
 cd ~/ffmpeg_sources
-git clone --depth 1 git://git.videolan.org/x264
+git clone --depth 1 git@code.videolan.org:videolan/x264.git
 cd x264
 PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./configure --prefix="$HOME/ffmpeg_build" --bindir="$HOME/bin" --enable-static
 make
